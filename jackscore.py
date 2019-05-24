@@ -30,7 +30,7 @@ def commands(event):
             observer.send_message("Thanks for playing!", "jackdawdottv")
             observer.unsubscribe(commands)
             observer.leave_channel("jackdawdottv")
-            observer.stop
+            observer.stop()
 
 #function for parsing answers. This checks all messages in the chat to see if
 #they exactly match the correct answer when both are lowercased. If they do,
